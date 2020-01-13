@@ -1,0 +1,46 @@
+.pic-mobil {
+	width: 334px;
+}
+
+/*.container {
+	margin: 20px 10px;
+}*/
+
+.indent_row {
+	margin: 20px 10px;
+	border: 1px solid black;
+}
+
+.indent_col {
+	padding: 140px 5px 140px 140px;
+}
+
+p {
+	color: #b9b9b9;
+	font-size: 18px;
+}
+
+p.value {
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: 25px;
+}
+
+p.text {
+	margin-top: 96px;
+}
+p.button {
+	/*display: inline-block;  Строчно-блочный элемент */
+    background: #8C959D; /* Серый цвет фона */
+    
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-transform: uppercase;
+    
+    border-radius: 50px; /* Скругляем уголки */
+}
+
+p.button > a {
+	color: #fff; /* Белый цвет текста */
+	text-decoration: none; /* Убираем подчёркивание */
+    /*user-select: none;*/
+}
