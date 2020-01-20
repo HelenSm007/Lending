@@ -1,5 +1,5 @@
 .pic-mobil {
-	width: 334px;
+	/*width: 334px;*/
 }
 
 /*.container {
@@ -8,7 +8,7 @@
 
 .indent_row {
 	margin: 20px 10px;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 }
 
 .indent_col {
@@ -27,20 +27,85 @@ p.value {
 }
 
 p.text {
+	font-size: 24px;
 	margin-top: 96px;
+	margin-bottom: 60px; 
 }
-p.button {
+a.button {
 	/*display: inline-block;  Строчно-блочный элемент */
+    font-size: 22px;
     background: #8C959D; /* Серый цвет фона */
     
-    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    padding: 0.5rem 2.5rem; /* Поля вокруг текста */
     text-transform: uppercase;
-    
-    border-radius: 50px; /* Скругляем уголки */
-}
-
-p.button > a {
-	color: #fff; /* Белый цвет текста */
+    color: #fff; /* Белый цвет текста */
 	text-decoration: none; /* Убираем подчёркивание */
     /*user-select: none;*/
+    border-radius: 50px; /* Скругляем уголки */
+    margin-right: 25px; 
+}
+
+a.active {
+	background-color: white;
+	color: #68c830;
+	border: 1px solid #68c830;
+}
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.icons__item {
+	margin-right: 50px;
+}
+
+.icons {
+	margin-top: 56px;
+}
+.icons__item a {
+	color: #68c830;
+	font-size: 30px;
+	transition: all 0.3s ease;
+}
+
+.icons__item a:hover {
+	color: #ca500d;
+	
+}
+
+ /* -- Section second Green -- */
+
+ .section_green {
+	 background-color: #98d361;
+	 color: white;
+ }
+
+ .h2-regular {
+	font-size: 34px;
+	/* font-family: "Myriad Pro"; */
+	line-height: 1.2;
+	text-align: center;
+	font-weight: normal;
+	margin-top: 88px;
+	margin-bottom: 20px;
+ }
+
+.secton-second__icon{
+	color: white;
+	text-align: center;
+	font-size: 70px;
+}
+
+ .text_white {
+	color: white;
+	font-size: 20px;
+	line-height: 1.2;
+	text-align: center;
+ }
+
+ .h3-size28 {
+	font-size: 28px;
+	margin-top: 3rem;
+	margin-bottom: 2rem;
 }
