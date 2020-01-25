@@ -1,6 +1,7 @@
 /* .pic-mobil {
 	width: 334px;
 } */
+
 .pic-mobil {
 	/*width: 334px;*/
 }
@@ -108,7 +109,6 @@ ul, li {
 	font-size: 28px;
 	margin-top: 3rem;
 	margin-bottom: 2rem;
-<<<<<<< HEAD
 }
 
 /* --  Section the third -- */
@@ -130,6 +130,4 @@ h2.feature {
 .text-sign {
 	color: #686868;
 	font-size: 18px;
-=======
->>>>>>> 8b5d01cbd2ccf04e2ec7116ab2a74dbe316c664c
 }
